@@ -14,7 +14,7 @@
 ### Installation 👀
 
     * Clone repository
-        $ git clone git@github.com:manhmanhdzaii/fabbi-test.git
+        $ git clone https://github.com/manhmanhdzaii/fabbi-test.git
 
     * copy .env file from .env.example and then change database configuration
         $ cp .env.example .env
