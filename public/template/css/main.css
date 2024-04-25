@@ -1,0 +1,188 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.navbar-nav {
+    display: flex;
+    box-shadow: 5px 2px;
+    width: max-content;
+}
+
+label {
+    cursor: pointer;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 5px 15px;
+    font-weight: bold;
+    border: 1px solid #333;
+}
+
+.nav-item-active {
+    background: #82bff0;
+}
+
+.body {
+    margin-top: 60px;
+}
+
+.tab-2 .form-input,
+.tab-1 {
+    padding-left: 100px;
+}
+
+.tab-3 select,
+.tab-1 select {
+    min-width: 200px;
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tab-1 input {
+    text-align: right;
+    height: 30px;
+    padding: 5px;
+}
+
+.form-input {
+    margin-top: 20px;
+}
+
+.form-input label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.input-number {
+    display: flex;
+    border: 1px solid #333;
+    width: max-content;
+}
+
+.input-number input {
+    border: none;
+    width: 100px;
+}
+
+.change-value {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #333;
+    height: 30px;
+}
+
+.change-value div {
+    flex: 1;
+    cursor: pointer;
+    display: flex;
+    padding: 2px 5px;
+}
+
+.change-value div i {
+    height: 6px;
+    font-size: 14px;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content-active {
+    display: block;
+}
+
+.move-item {
+    margin-top: 100px;
+}
+
+.move-item button {
+    padding: 3px 10px;
+    box-shadow: 4px 2px;
+}
+
+.err {
+    padding: 3px;
+    font-size: 14px;
+    height: 18px;
+    color: red;
+}
+
+.err {
+    padding: 3px;
+    font-size: 14px;
+    height: 18px;
+    color: red;
+}
+
+.tab-2 select {
+    min-width: 250px;
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.tab3-box {
+    display: flex;
+    gap: 60px;
+}
+
+.tab3-box input {
+    width: 25px;
+    text-align: center;
+}
+
+#add-content {
+    margin-right: 20px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.remove-content {
+    visibility: hidden;
+    width: 30px;
+
+}
+
+.tab3-box:hover .remove-content {
+    visibility: unset;
+    display: flex;
+    align-items: center;
+}
+
+.remove-content i {
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+
+.tab4-body {
+    padding: 15px;
+}
+
+.tab4-box {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.tab4-box-title {
+    min-width: 155px;
+}
+
+.tab4-box-dishes {
+    border: 2px solid #333;
+    padding: 4px 20px 30px 4px;
+}
+
+.err-total-dishes{
+    padding: 10px;
+    text-align: center;
+}
