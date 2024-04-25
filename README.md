@@ -14,7 +14,7 @@
 ### Installation 👀
 
     * Clone repository
-        $ git clone https://github.com/kirinji-tokyo/comic-addict-backend.git
+        $ git clone git@github.com:manhmanhdzaii/fabbi-test.git
 
     * copy .env file from .env.example and then change database configuration
         $ cp .env.example .env
